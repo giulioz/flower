@@ -1,4 +1,4 @@
-/* 
+ /* 
  * This file is part of Flower.
  * 
  * Copyright ©2018 Nicolò Mazzucato
@@ -21,8 +21,8 @@
  * along with Flower.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';

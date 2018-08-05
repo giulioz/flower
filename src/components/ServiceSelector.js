@@ -25,7 +25,7 @@
 
 import React, { Component } from "react";
 
-//ui
+// ui
 import { withStyles } from "@material-ui/core/styles";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
@@ -86,6 +86,7 @@ export class ServiceSelector extends Component<props_types,state_types> {
                 <FormControl className={classes.formControl}>
                     <InputLabel htmlFor="target_name">Service</InputLabel>
                     <Select
+                        disableUnderline={true}
                         value={this.state.target_name}
                         onChange={this.handleChange}
                         inputProps={{
